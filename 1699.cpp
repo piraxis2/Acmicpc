@@ -26,7 +26,7 @@ int main()
         {
             for (int j = 1; j < primenums.size(); j++)
             {
-                int primenum =primenums[j];
+                int primenum = primenums[j];
                 int tempCount = sums[primenum] + sums[i - primenum];
                 if (count == 0 || tempCount < count)
                     count = tempCount;
