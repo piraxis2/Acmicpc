@@ -20,13 +20,13 @@ int main()
     switch (c)
     {
     case 'Y':
-        cout << palyers.size()/1;
+        cout << palyers.size() / 1;
         break;
     case 'F':
-        cout << palyers.size()/2;
+        cout << palyers.size() / 2;
         break;
     case 'O':
-        cout << palyers.size()/3;
+        cout << palyers.size() / 3;
         break;
     }
 }
